@@ -24,12 +24,13 @@ public class EmployeeService {
 	EmployeeRepository employeeRepository;
 	
 	public List<Employee> getAllEmployees(){
-		return employeeList;
+		//return employeeList;
+		return employeeRepository.findAll();
 	}
 
 	public Employee getAnEmployee(int id) {
-		return employeeList.stream().filter(e ->(
-				e.getEmployeeId()==id)).findFirst().get();
+		/*return employeeList.stream().filter(e ->(
+				e.getEmployeeId()==id)).findFirst().get(); */
 		
 		// The above lambda function code is explained in simpler way.
 		/*
@@ -41,6 +42,8 @@ public class EmployeeService {
 		    // If no employee with the given id is found, you might want to return null or throw an exception
 		    return null; // or throw new NoSuchElementException("Employee not found");
 		*/
+		
+		return employeeRepository.findById(id).orElseThrow(()-> new RuntimeException("Not Found"));
 
 	}
 	
