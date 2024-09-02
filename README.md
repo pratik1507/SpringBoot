@@ -1,12 +1,12 @@
 # SpringBoot
 This repository belongs to the spring boot course. 
 
-# Project - 1 :
+# Project - 1 : EmployeeApplication
 This project is to understand the basics of CRUD operations and understanding of the different annotations such as @Autowired, @RequestMapping, @RestController, @Controller, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @Service . <br> <br>
 The APIs included in the project are: <br>
 ![image](https://github.com/user-attachments/assets/13af6bc4-196b-4cf4-8637-aa22fa4aa936)
 <br>
-# Project - 1 : Updated
+# Project - 1 : EmployeeApplication2
 This project is updated EmployeeAplication project in which we connected our application with in-memory database (H2) : <br>
 Also in this project we learned about JPA repository and multiple new annotations. <br> <br>
 What is in-memory database ? <br>
