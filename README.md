@@ -6,7 +6,7 @@ This project is to understand the basics of CRUD operations and understanding of
 The APIs included in the project are: <br>
 ![image](https://github.com/user-attachments/assets/13af6bc4-196b-4cf4-8637-aa22fa4aa936)
 <br>
-# Project - 1 : EmployeeApplication2
+# Project - 2 : EmployeeApplication2
 This project is updated EmployeeAplication project in which we connected our application with in-memory database (H2) : <br>
 Also in this project we learned about JPA repository and multiple new annotations. <br> <br>
 What is in-memory database ? <br>
@@ -24,7 +24,47 @@ Some reference images : <br> <br>
 ![image](https://github.com/user-attachments/assets/c8bd0bd3-3bb0-4f8c-b521-8231bd8037f8)  <br>
 ![image](https://github.com/user-attachments/assets/8ede2fee-62b1-408a-a8b4-e057ffb33921)  <br>
 
-
+# Project - 3 : EmployeeApplication3
+This project focuses mainly on Database Mappings and Cascading. The database mapping and cascading concepts are being explained in the form on comments . <br> 
+This project is the upadated EmployeeApplication project. <br><br>
+The employee creation payload : <br><br>
+{
+    "employeeName":"1st emp",
+    "employeeCity":"Kolhapur",
+    "spouse":{
+        "name":"First employee spouse",
+        "mobno": "9330339272",
+        "age":30
+    },
+    "addresses":[
+        {
+        "line1":"line1",
+        "line2":"line2",
+        "zipCode":"zipCode",
+        "city":"city",
+        "state":"state",
+        "country":"country"
+        },
+        {
+        "line1":"line1",
+        "line2":"line2",
+        "zipCode":"zipCode",
+        "city":"city",
+        "state":"state",
+        "country":"country"
+        }
+    ],
+    "projects":[
+        {
+            "name":"name1",
+            "clientName":"clientName1"
+        },
+        {
+            "name":"name2",
+            "clientName":"clientName2"
+        }
+    ]
+}
 
 
 
