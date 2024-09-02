@@ -8,6 +8,7 @@ The APIs included in the project are: <br>
 <br>
 # Project - 1 : Updated
 This project is updated EmployeeAplication project in which we connected our application with in-memory database (H2) : <br>
+Also in this project we learned about JPA repository and multiple new annotations. <br> <br>
 What is in-memory database ? <br>
 In-memory database is a database which uses memory to store data as opposed to the disk space. <br><br>
 Steps to be followed : <br>
