@@ -1,12 +1,12 @@
 # SpringBoot
 This repository belongs to the spring boot course. 
 
-# Project - 1 : EmployeeApplication
+# Project - 1 : EmployeeApplication ( CRUD Operations )
 This project is to understand the basics of CRUD operations and understanding of the different annotations such as @Autowired, @RequestMapping, @RestController, @Controller, @GetMapping, @PostMapping, @PutMapping, @DeleteMapping, @Service . <br> <br>
 The APIs included in the project are: <br>
 ![image](https://github.com/user-attachments/assets/13af6bc4-196b-4cf4-8637-aa22fa4aa936)
 <br>
-# Project - 2 : EmployeeApplication2
+# Project - 2 : EmployeeApplication2 ( H2 - in-memory database ) 
 This project is updated EmployeeAplication project in which we connected our application with in-memory database (H2) : <br>
 Also in this project we learned about JPA repository and multiple new annotations. <br> <br>
 What is in-memory database ? <br>
@@ -24,7 +24,7 @@ Some reference images : <br> <br>
 ![image](https://github.com/user-attachments/assets/c8bd0bd3-3bb0-4f8c-b521-8231bd8037f8)  <br>
 ![image](https://github.com/user-attachments/assets/8ede2fee-62b1-408a-a8b4-e057ffb33921)  <br>
 
-# Project - 3 : EmployeeApplication3
+# Project - 3 : EmployeeApplication3 (Database mapping and Cascading)
 This project focuses mainly on Database Mappings and Cascading. The database mapping and cascading concepts are being explained in the form on comments . <br> 
 This project is the upadated EmployeeApplication project. <br><br>
 The employee creation payload : <br><br>
@@ -66,5 +66,7 @@ The employee creation payload : <br><br>
     ]
 }
 
-
+# Project - 4 : Added Fetch and it's Types :
+In this project I have updated the previous EmployeeApplication project and explained the concepts of fetch and it's types ( Eager and Lazy ). <br>
+Please look at the Bean meathod added in EmployeeApplication class also check for the code written in application.properties to see the sql query in the console.
 
